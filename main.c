@@ -19,7 +19,7 @@ int main(void)
 		if (!isatty(STDIN_FILENO))
 			run_status = 1;
 		else
-			write(STDOUT_FILENO, "Cisfun$ ", 8);
+			write(STDOUT_FILENO, "($) ", 4);
 		command_input = getline(&user_command, &command_length, stdin);
 		if (command_input == -1)
 		{
