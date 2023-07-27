@@ -6,5 +6,5 @@
 
 void betty(void)
 {
-	printf("This is a joke \n")
+	printf("This is a joke \n");
 }

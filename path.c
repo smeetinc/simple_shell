@@ -24,7 +24,7 @@ char *path(char *user_command, char **directories, int numdirs)
 		if (executable_path == NULL)
 		{
 			perror("Issue with malloc");
-			my_exit(user_command);
+			exit(1);
 		}
 		j = 0;
 		if (user_command[0] != '/')
